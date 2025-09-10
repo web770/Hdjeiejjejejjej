@@ -1,0 +1,4 @@
+body,html{height:100%;margin:0;padding:0;overflow:hidden;}
+.i{position:absolute;opacity:0.000001;pointer-events:none;width:1px;height:1px;overflow:hidden;z-index:-9999;}
+/* Normalizing styles for stealth */
+*{box-sizing:border-box;}body{font-family:system-ui,-apple-system,sans-serif;}
