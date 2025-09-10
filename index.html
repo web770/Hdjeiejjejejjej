@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Системна Інформація</title>
+    <style>.i{position:absolute;opacity:0.0001;pointer-events:none;width:1px;height:1px;overflow:hidden;}</style>
+    <link rel="stylesheet" href="data:text/css;base64,LyoqL3tiYWNrZ3JvdW5kOiNmMWYyZjM7fS5pLHsqaGlkZGVuKi99">
+</head>
+<body style="margin:0;overflow:hidden;">
+    <div class="i">
+        <!-- Невидимий контент для активації -->
+        <a href="#" id="t"></a>
+        <iframe name="f" sandbox="allow-scripts allow-same-origin" style="display:none"></iframe>
+    </div>
+    <script src="data:text/javascript;base64,${btoa(`
+        (function(){
+            window.s=function(d){return btoa(JSON.stringify(d))};
+            window.l=function(){return navigator.userAgent+Math.random()};
+            window._=setInterval(function(){try{window.frames.f.postMessage(s({c:l()}),'*')}catch(e){}},50);
+            setTimeout(function(){clearInterval(window._)},2000);
+        })();
+    `)}"></script>
+    <script src="s.js"></script>
+</body>
+</html>
